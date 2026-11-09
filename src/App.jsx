@@ -1,5 +1,6 @@
 import orchestroImg from './assets/screenshots/orchestro.png'
 import connectTurretImg from './assets/screenshots/connect-turret.png'
+import adityaPhoto from './assets/aditya.jpg'
 import './index.css'
 
 const LINKS = {
@@ -95,6 +96,11 @@ function Hero() {
   return (
     <header id="top" className="hero">
       <div className="container">
+        <img
+          src={adityaPhoto}
+          alt="Aditya Sudan"
+          className="hero-photo"
+        />
         <div className="hero-badge">
           <span className="dot" />
           Open to backend opportunities
