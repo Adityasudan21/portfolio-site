@@ -96,15 +96,15 @@ function Hero() {
   return (
     <header id="top" className="hero">
       <div className="container">
+        <div className="hero-badge">
+          <span className="dot" />
+          Open to backend opportunities
+        </div>
         <img
           src={adityaPhoto}
           alt="Aditya Sudan"
           className="hero-photo"
         />
-        <div className="hero-badge">
-          <span className="dot" />
-          Open to backend opportunities
-        </div>
         <h1>
           Aditya Sudan
           <span className="title">Backend Engineer</span>

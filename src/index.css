@@ -153,13 +153,14 @@ code,
 }
 
 .hero-photo {
+  display: block;
   width: 104px;
   height: 104px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border-hover);
   box-shadow: 0 0 0 4px var(--bg-elevated), 0 8px 24px rgba(0, 0, 0, 0.4);
-  margin-bottom: 24px;
+  margin: 24px auto 20px;
 }
 
 .hero-badge {
