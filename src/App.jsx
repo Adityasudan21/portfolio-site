@@ -79,6 +79,7 @@ function Nav() {
         <a href="#top" className="nav-logo">Aditya Sudan</a>
         <ul className="nav-links">
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Cert</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
           <li className="hide-mobile">
