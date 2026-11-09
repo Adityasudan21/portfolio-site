@@ -301,7 +301,7 @@ function Contact() {
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Aditya Sudan. Built with React.</p>
+      <p>&copy; {new Date().getFullYear()} Aditya Sudan.</p>
     </footer>
   )
 }
