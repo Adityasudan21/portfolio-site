@@ -130,7 +130,7 @@ function Experience() {
   return (
     <section id="experience" className="section">
       <div className="container">
-        <div className="section-label">01 · Experience</div>
+        <div className="section-label">1 · Experience</div>
         <h2 className="section-heading">Where I've worked</h2>
         <p className="section-sub">
           Backend engineering roles focused on Java, Spring Boot, and
@@ -163,7 +163,7 @@ function Education() {
   return (
     <section id="education" className="section">
       <div className="container">
-        <div className="section-label">02 · Education</div>
+        <div className="section-label">2 · Education</div>
         <h2 className="section-heading">Where I studied</h2>
         <div className="exp-list">
           <div className="exp-item">
@@ -184,7 +184,7 @@ function Certifications() {
   return (
     <section id="certifications" className="section">
       <div className="container">
-        <div className="section-label">03 · Certifications &amp; Achievements</div>
+        <div className="section-label">3 · Certifications &amp; Achievements</div>
         <h2 className="section-heading">Credentials</h2>
         <ul className="cert-list">
           {CERTIFICATIONS.map((c, i) => (
@@ -203,7 +203,7 @@ function Projects() {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <div className="section-label">04 · Projects</div>
+        <div className="section-label">4 · Projects</div>
         <h2 className="section-heading">Things I've built</h2>
         <p className="section-sub">
           Side projects exploring backend architecture, AI agents, and
@@ -271,7 +271,7 @@ function Contact() {
     <section id="contact" className="section contact">
       <div className="container">
         <div className="section-label" style={{ justifyContent: 'center', display: 'flex' }}>
-          05 · Contact
+          5 · Contact
         </div>
         <h2 className="section-heading">Let's talk</h2>
         <p className="section-sub" style={{ margin: '0 auto 0' }}>
