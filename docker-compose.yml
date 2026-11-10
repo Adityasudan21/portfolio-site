@@ -1,0 +1,7 @@
+services:
+  portfolio:
+    build: .
+    container_name: portfolio-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:80"
